@@ -23,6 +23,10 @@ const Home = () => (
           <h3>Client side &rarr;</h3>
           <p>Using next.js router</p>
         </a>
+        <a href='client2' className='card'>
+          <h3>Client side (no flashing) &rarr;</h3>
+          <p>Using next.js router</p>
+        </a>
         <a href='server' className='card'>
           <h3>Server side &rarr;</h3>
           <p>Using <code>redirect</code> inside <code>getServerSideProps</code></p>
