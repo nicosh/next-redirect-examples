@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Router from 'next/router'
 
-const ConfigPage = ()=>{
+const ClientSide = ()=>{
     useEffect(() => {
         const {pathname} = Router
         if(pathname == '/client' ){
@@ -15,4 +15,4 @@ const ConfigPage = ()=>{
     </p> 
     )
 }
-export default ConfigPage
+export default ClientSide
